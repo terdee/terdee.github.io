@@ -13,7 +13,7 @@ border: solid black;
 color: white;
 background: linear-gradient(45deg, #8B0000, #FF1493);
 border-radius: 15px;
-gap: 15px;
+margin: 0 15px 0 5px;
 }
 
 .small {
@@ -38,7 +38,7 @@ align-items: center:
 
 .koti {
 width: 50px;
-position: relative;
+position: absolute
 top: 5px;
 left: 5px;
 }
