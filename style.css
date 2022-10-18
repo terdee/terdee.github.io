@@ -10,11 +10,3 @@ background: linear-gradient(45deg, #8B0000, #FF1493);
 border-radius: 15px;
 }
 
-.grid-container {
-border: solid black 5px;
-width: 90%;
-position: absolute;
-top: 10px;
-display: grid;
-align-items: center;
-}
