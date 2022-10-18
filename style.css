@@ -1,8 +1,11 @@
 .html {
-background: linear-gradient(45deg, #8B0000, #FF1493);
+background-color: grey;
 }
 
 .grid-item {
 font-size: 30px;
-font-family: courier;
+font-family: arial;
+border: solid;
+background: linear-gradient(45deg, #8B0000, #FF1493);
+border-radius: 15px;
 }
