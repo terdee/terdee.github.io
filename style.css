@@ -10,3 +10,6 @@ background: linear-gradient(45deg, #8B0000, #FF1493);
 border-radius: 15px;
 }
 
+.small {
+font-size: 8px;
+}
