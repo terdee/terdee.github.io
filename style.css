@@ -1,7 +1,8 @@
 .html {
-background: linear-gradient(45deg, #8B0000, #FF1493)
+background: linear-gradient(45deg, #8B0000, #FF1493);
 }
 
 .grid-item {
-background-color: pink;
+font-size: 30px;
+font-family: courier;
 }
