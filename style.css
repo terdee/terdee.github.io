@@ -2,10 +2,15 @@
 background-color: grey;
 }
 
+.navbar-1 {
+background-color: pink;
+}
+
 .grid-item {
 font-size: 25px;
 font-family: arial;
-border: solid;
+border: solid black;
+color: white;
 background: linear-gradient(45deg, #8B0000, #FF1493);
 border-radius: 15px;
 }
