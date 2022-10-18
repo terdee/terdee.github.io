@@ -30,6 +30,11 @@ justify-content: center;
 display: flex;
 }
 
+.flex-container-3 {
+display: flex;
+justify-content: right;
+}
+
 .koti {
 width: 30px;
 position: relative;
