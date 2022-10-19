@@ -28,6 +28,12 @@ margin: 10px 10px 10px 10px;
 text-align: left;
 }
 
+
+.card-container {
+width: 100px;
+vertical-align: center;
+}
+
 .cardheader1 {
 background-color: #cc0066;
 margin-top: 4px;
