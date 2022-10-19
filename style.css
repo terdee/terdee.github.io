@@ -2,45 +2,44 @@
 background-color: grey;
 }
 
-.navbar-1 {
+.navi {
+border: solid;
+width: 100%;
+height:;
 background-color: pink;
 }
 
-.grid-item {
-font-size: 25px;
+.koti {
+width: 5%;
+position: relative;
+top: 10px;
+left: 10px;
+display: float;
+z-index: 3;
+}
+
+.navbar-1 {
+
+}
+
+.nav-item {
+font-size: 15px;
 font-family: arial;
-border: solid black;
 color: white;
 background: linear-gradient(45deg, #8B0000, #FF1493);
-border-radius: 15px;
-margin: 0 15px 0 5px;
+border-radius: 10px;
+margin: 10px 15px 10px 5px;
+}
+
+.flex-container-1 {
+display: flex;
+justify-content: center;
 }
 
 .small {
 font-size: 8px;
 }
 
-.flex.container-1 {
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
 .flex-container-2 {
 display: flex;
-}
-
-.flex-container-3 {
-display: flex;
-justify-content: space-around;
-align-items: center:
-}
-
-.koti {
-width: 50px;
-float: left;
-z-index: 2;
-position: absolute
-top: 5px;
-left: 5px;
 }
