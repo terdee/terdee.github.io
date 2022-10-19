@@ -1,45 +1,24 @@
-.html {
-background-color: grey;
+.title{
+text-align: right;
 }
 
-.navi {
+.logo {
+width: 100px;
+}
+
+.navitem {
 border: solid;
-width: 100%;
-height:;
-background-color: pink;
-}
-
-.koti {
-width: 5%;
-position: relative;
-top: 10px;
-left: 10px;
-display: float;
-z-index: 3;
-}
-
-.navbar-1 {
-
-}
-
-.nav-item {
-font-size: 15px;
-font-family: arial;
-color: white;
-background: linear-gradient(45deg, #8B0000, #FF1493);
-border-radius: 10px;
-margin: 10px 15px 10px 5px;
-}
-
-.flex-container-1 {
-display: flex;
-justify-content: center;
+color: blue;
+padding: 2px 5px 2px 5px;
+margin: 10px 10px 10px 10px;
+text-align: center;
 }
 
 .small {
 font-size: 8px;
 }
 
-.flex-container-2 {
-display: flex;
+.card-bg {
+background-color: lightSkyBlue;
+color: white;
 }
