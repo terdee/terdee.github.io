@@ -1,0 +1,27 @@
+<!doctype.html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+<header>
+<div class="container-fluid">
+<nav class="row navbar navbar-expand-md row"><h3 class="title">
+Musamoti </h3>
+ <img class="navbar-brand logo" src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/music-violin.gif"
+    width="120" height="80">
+   <ul class="navbar-nav">
+    <li>
+     <a class="col nav-link navitem" href="#">Koti</a>
+    </li>
+    <li>
+     <a class="col nav-link navitem" href="#">Motivaatio hukassa?</a>
+      <a class="col nav-link navitem" href="#">Musamoti-testi</a>
+    </li>
+    <li>
+     <a class="col nav-link navitem" href="#">Treenaa Mozartin kanssa</a>
+    </li>
+   </ul>
+</nav>
+</div>
+</header>
+</html>
