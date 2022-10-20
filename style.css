@@ -1,3 +1,15 @@
+.inner-flex {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.content {
+background-color: #FFF8DC;
+width: 85%;
+flex-basis: 100%;
+}
+
 .cardheader1 {
 background-color: #cc0066;
 margin-top: 4px;
@@ -41,12 +53,7 @@ width: 75%;
 margin-bottom: 5px;
 }
 
-.flex-cont-html {
-display: flex;
-justify-content: center;
-}
-
-.content {
+body {
 width: 95%;
 background: linear-gradient(45deg, #F5B7B1, #F1948A, #F5B7B1);
 }
