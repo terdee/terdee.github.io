@@ -30,7 +30,7 @@ align-items: center;
 }
 
 .card-txt {
-font-size: 22px;
+font-size: 27px;
 text-align: center;
 width: 100%;
 background-color: #a6a6a6;
@@ -69,7 +69,7 @@ margin-right: -10;
 }
 
 .paateksti {
-font-size: 25px;
+font-size: 30px;
 text-align: center;
 border: solid 0.2px;
 background-color: #FFFAF0;
@@ -79,7 +79,7 @@ padding: 2px;
 
 .navitem {
 color: blue;
-font-size: 25px;
+font-size: 20px;
 font-weight: bold;
 padding: 2px 5px 2px 5px;
 margin: 10px 10px 10px 10px;
