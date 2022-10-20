@@ -6,6 +6,7 @@ align-items: center;
 
 body {
 background-color: #ffeead;
+box-shadow: 1px 30px 30px 8px;
 }
 
 header {
