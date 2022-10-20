@@ -11,6 +11,10 @@ flex-basis: 100%;
 box-shadow: 0 7px 0 7px rgba(0,0,0,.8);
 }
 
+.h-f-colors {
+background: linear-gradient(45deg, #fcc623, #ffcc5c);
+}
+
 .cardheader1 {
 background-color: #cc0066;
 margin-top: 4px;
@@ -61,7 +65,6 @@ background-color: #ffeead;
 
 header {
 width: 100%;
-background-color: #ffcc5c;
 }
 
 .title {
