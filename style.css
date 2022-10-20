@@ -26,6 +26,13 @@ transform: rotate(10deg);
 margin-right: -10;
 }
 
+.content {
+background-color: #ffeead;
+width: 85%;
+flex-basis: 100%;
+box-shadow: 1px 30px 30px 8px;
+}
+
 .paateksti {
 font-size: 30px;
 text-align: center;
@@ -44,13 +51,6 @@ font-weight: bold;
 padding: 2px 5px 2px 5px;
 margin: 5px 7px 5px 7px;
 text-align: left;
-}
-
-.content {
-background-color: #ffeead;
-width: 85%;
-flex-basis: 100%;
-box-shadow: 1px 30px 30px 8px;
 }
 
 .h-f-colors {
