@@ -5,7 +5,7 @@ align-items: center;
 }
 
 .content {
-background-color: #FFF8DC;
+background-color: #ffeead;
 width: 85%;
 flex-basis: 100%;
 box-shadow: 0 7px 0 7px rgba(0,0,0,.8);
@@ -61,7 +61,7 @@ background: linear-gradient(45deg, #F5B7B1, #F1948A, #F5B7B1);
 
 header {
 margin-top: 10px;
-background-color: #F1948A;
+background-color: #ffcc5c;
 }
 
 .title {
