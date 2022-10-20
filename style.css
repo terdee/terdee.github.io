@@ -53,6 +53,7 @@ background-color: #F1948A;
 
 .title {
 text-align: right;
+font-size: 35px;
 }
 
 .logo {
@@ -63,7 +64,7 @@ margin-right: -10;
 }
 
 .paateksti {
-font-size: 14px;
+font-size: 25px;
 text-align: center;
 border: solid 0.2px;
 background-color: #FFFAF0;
@@ -73,6 +74,7 @@ padding: 2px;
 
 .navitem {
 color: blue;
+font-size: 30px;
 font-weight: bold;
 padding: 2px 5px 2px 5px;
 margin: 10px 10px 10px 10px;
