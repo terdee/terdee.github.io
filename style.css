@@ -30,7 +30,7 @@ align-items: center;
 }
 
 .card-txt {
-font-size: 17px;
+font-size: 22px;
 text-align: center;
 width: 100%;
 background-color: #a6a6a6;
@@ -90,5 +90,5 @@ grid-template-areas: "item2 cards";
 grid-area: cards;
 
 .small {
-font-size: 10px;
+font-size: 15px;
 }
