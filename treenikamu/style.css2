@@ -1,1 +1,26 @@
+.flex-cont-html {
+display: flex;
+justify-content: center;
+}
 
+.content {
+width: 95%;
+background: linear-gradient(45deg, #F5B7B1, #F1948A, #F5B7B1);
+}
+
+header {
+margin-top: 10px;
+background-color: #F1948A;
+}
+
+.title {
+text-align: right;
+font-size: 35px;
+}
+
+.logo {
+height: 175px;
+width: 150px;
+transform: rotate(10deg);
+margin-right: -10;
+}
