@@ -8,7 +8,7 @@ align-items: center;
 background-color: #ffeead;
 width: 85%;
 flex-basis: 100%;
-box-shadow: 7px 7px 7px 7px rgba(0,0,0,.8);
+box-shadow: 0 4px 0 4px (#808080), 0 8px 0 8px (#D3D3D3);
 }
 
 .h-f-colors {
@@ -64,7 +64,7 @@ margin-bottom: 5px;
 }
 
 .card-effects {
-box-shadow: 0 4px 8px 0 (#808080);
+box-shadow: 0 4px 8px 0 (#808080), 0 6px 20px 0 (#D3D3D3);
 }
 
 body {
