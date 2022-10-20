@@ -79,10 +79,8 @@ margin-right: -10;
 .paateksti {
 font-size: 30px;
 text-align: center;
-border: solid 0.2px;
-background-color: #FFFAF0;
 margin: 10px 0 7px 7px;
-padding: 2px;
+padding: 3px;
 }
 
 .navitem {
