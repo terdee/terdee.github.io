@@ -1,47 +1,8 @@
-html {
-width: 100%;
-background: linear-gradient(45deg, #F5B7B1, #F1948A, #F5B7B1);
-}
-
-.content {
-width: 85%
-background-color: grey;
-margin: 10px 0 10px 0;
-}
-
-header {
-margin-top: 10px;
-}
-
-.title{
-text-align: right;
-}
-
-.logo {
-height: 175px;
-width: 150px;
-transform: rotate(10deg);
-margin-right: -10;
-}
-
-.navitem {
-color: blue;
-font-weight: bold;
-padding: 2px 5px 2px 5px;
-margin: 10px 10px 10px 10px;
-text-align: left;
-}
-
-
-.card-container {
-width: 50%;
-margin: 10px 0 10px 0;
-}
-
 .cardheader1 {
 background-color: #cc0066;
 margin-top: 4px;
 }
+
 .cardheader2 {
 background-color: #087cc4;
 margin-top: 4px;
@@ -54,7 +15,6 @@ margin-top: 4px;
 .card-bg1 {
 background-color: #FF69B4;
 color: white;
-align-items: center;
 }
 
 .card-bg2 {
@@ -80,6 +40,52 @@ background-color: #a6a6a6;
 width: 75%;
 margin-bottom: 5px;
 }
+
+.content {
+width: 100%;
+background: linear-gradient(45deg, #F5B7B1, #F1948A, #F5B7B1);
+}
+
+header {
+margin-top: 10px;
+background-color: #F1948A;
+}
+
+.title {
+text-align: right;
+}
+
+.logo {
+height: 175px;
+width: 150px;
+transform: rotate(10deg);
+margin-right: -10;
+}
+
+.paateksti {
+font-size: 14px;
+text-align: center;
+border: solid 0.2px;
+background-color: #FFFAF0;
+margin: 10px 0 7px 7px;
+padding: 2px;
+}
+
+.navitem {
+color: blue;
+font-weight: bold;
+padding: 2px 5px 2px 5px;
+margin: 10px 10px 10px 10px;
+text-align: left;
+}
+
+.grid-container {
+display: grid;
+grid-template-areas: "item2 cards";
+}
+
+.cards {
+grid-area: cards;
 
 .small {
 font-size: 10px;
