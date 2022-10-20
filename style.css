@@ -3,7 +3,7 @@ width: 100%;
 background: linear-gradient(45deg, #F5B7B1, #F1948A, #F5B7B1);
 }
 
-content {
+.content {
 width: 85%
 background-color: grey;
 margin: 10px 0 10px 0;
