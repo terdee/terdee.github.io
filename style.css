@@ -1,8 +1,12 @@
 html {
-width: 95%;
-margin-left: 7px;
-margin-right: 7px;
+width: 100%;
 background: linear-gradient(45deg, #F5B7B1, #F1948A, #F5B7B1);
+}
+
+content {
+width: 85%
+background-color: white;
+margin: 10px 0 10px 0;
 }
 
 header {
