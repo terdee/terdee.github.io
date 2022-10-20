@@ -50,7 +50,7 @@ text-align: left;
 background-color: #ffeead;
 width: 85%;
 flex-basis: 100%;
-box-shadow: 0 4px 0 4px (#808080), 0 8px 0 8px (#D3D3D3);
+box-shadow: 1px 30px 30px 8px;
 }
 
 .h-f-colors {
