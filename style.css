@@ -8,11 +8,16 @@ align-items: center;
 background-color: #ffeead;
 width: 85%;
 flex-basis: 100%;
-box-shadow: 0 7px 0 7px rgba(0,0,0,.8);
+box-shadow: 7px 7px 7px 7px rgba(0,0,0,.8);
 }
 
 .h-f-colors {
 background: linear-gradient(45deg, #fcc623, #ffcc5c);
+}
+
+.tekstiruutu {
+border: solid 0.1px;
+background-color: #f0eee9;
 }
 
 .cardheader1 {
