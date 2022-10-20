@@ -4,6 +4,43 @@ flex-direction: column;
 align-items: center;
 }
 
+body {
+background-color: #ffeead;
+}
+
+header {
+width: 100%;
+margin: 0 0 1px 0;
+}
+
+.title {
+text-align: right;
+font-size: 35px;
+}
+
+.logo {
+height: 175px;
+width: 150px;
+transform: rotate(10deg);
+margin-right: -10;
+}
+
+.paateksti {
+font-size: 30px;
+text-align: center;
+margin: 10px 0 7px 7px;
+padding: 3px;
+}
+
+.navitem {
+color: blue;
+font-size: 20px;
+font-weight: bold;
+padding: 2px 5px 2px 5px;
+margin: 5px 7px 5px 7px;
+text-align: left;
+}
+
 .content {
 background-color: #ffeead;
 width: 85%;
@@ -61,46 +98,6 @@ background-color: #a6a6a6;
 .cardimage {
 width: 75%;
 margin-bottom: 5px;
-}
-
-.card-effects {
-}
-
-body {
-background-color: #ffeead;
-}
-
-header {
-width: 100%;
-margin: 0 0 1px 0;
-}
-
-.title {
-text-align: right;
-font-size: 35px;
-}
-
-.logo {
-height: 175px;
-width: 150px;
-transform: rotate(10deg);
-margin-right: -10;
-}
-
-.paateksti {
-font-size: 30px;
-text-align: center;
-margin: 10px 0 7px 7px;
-padding: 3px;
-}
-
-.navitem {
-color: blue;
-font-size: 20px;
-font-weight: bold;
-padding: 2px 5px 2px 5px;
-margin: 5px 7px 5px 7px;
-text-align: left;
 }
 
 .grid-container {
