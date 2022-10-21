@@ -25,6 +25,13 @@ transform: rotate(10deg);
 margin-right: -10;
 }
 
+
+.paateksti {
+font-size: 30px;
+margin: 10px 0 7px 7px;
+padding: 3px;
+}
+
 .navitem {
 color: blue;
 font-weight: bold;
@@ -33,52 +40,9 @@ margin: 10px 10px 10px 10px;
 text-align: left;
 }
 
-
-.card-container {
-width: 50%;
-}
-
-.cardheader1 {
-background-color: #cc0066;
-margin-top: 4px;
-}
-.cardheader2 {
-background-color: #087cc4;
-margin-top: 4px;
-}
-.cardheader3 {
-background-color: #4d9900;
-margin-top: 4px;
-}
-
-.card-bg1 {
-background-color: #FF69B4;
-color: white;
-align-items: center;
-}
-
-.card-bg2 {
-background-color: #87cefa;
-color: white;
-align-items: center;
-}
-
-.card-bg3 {
-background-color: #7CFC00;
-color: white;
-align-items: center;
-}
-
-.card-txt {
-font-size: 17px;
-text-align: center;
-width: 100%;
-background-color: #a6a6a6;
-}
-
-.cardimage {
-width: 75%;
-margin-bottom: 5px;
+.tekstiruutu {
+border: solid 0.1px;
+background-color: #f0eee9;
 }
 
 .small {
