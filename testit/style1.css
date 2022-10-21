@@ -5,6 +5,17 @@ margin-right: 7px;
 background: linear-gradient(45deg, #F5B7B1, #F1948A, #F5B7B1);
 }
 
+.inner-flex {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+body {
+background-color: #f5f5f5;
+box-shadow: 1px 30px 30px 8px;
+}
+
 .testi {
 margin: 0 15px 10px 15px;
 background-color: white;
