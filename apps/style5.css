@@ -3,6 +3,7 @@ font-family: auto;
 padding: 2px 5px 2px 5px;
 font-weight: bold;
 margin: 5px;
+font-size: 30px;
 }
 
 .tekstiruutu {
@@ -11,6 +12,7 @@ font-family: 'Brush Script MT'
 }
 
 .inner-flex {
+margin-bottom: 50px;
 display: flex;
 flex-direction: column;
 align-items: center;
