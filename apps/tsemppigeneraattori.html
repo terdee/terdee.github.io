@@ -35,7 +35,24 @@ Musamoti </h3>
 </header>
 	<br>
 <body>
+<div class="noni">
+<p><button onclick="document.getElementById('generator').innerHTML = things[Math.floor(Math
+ .random() * things.length)]">Tsemppaa mua!</button>
 
+<p id="generator"></p>
+
+<script>
+var things = ['Rock', 'Paper',
+ 'Scissor'
+];
+var thing = things[Math.floor(Math
+ .random() * things.length)];
+console.log(thing);
+  
+</script>  
+<script src="script.js"></script>
+</p>
+</div>
 </body>
 	<br>
 <footer>
