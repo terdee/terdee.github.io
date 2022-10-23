@@ -1,33 +1,101 @@
-<body>
+<head>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<div class="flex-container">
 <div id="countdown">
      <ul>
-	<li style="display: inline-block; font-size: 0.8em; list-style-type: none; padding: 1em; text-transform: uppercase;"><span style="display: block; font-size: 3.5rem;" id="hours"></span>Hours</li>
-	<li style="display: inline-block; font-size: 0.8em; list-style-type: none; padding: 1em; text-transform: uppercase;"><span style="display: block; font-size: 3.5rem;" id="minutes"></span>Minutes</li>
-	<li style="display: inline-block; font-size: 0.8em; list-style-type: none; padding: 1em; text-transform: uppercase;"><span style="display: block; font-size: 3.5rem;" id="seconds"></span>Seconds</li>
+	<li style="display: inline-block; list-style-type: none;"><span style="display: block;" id="minutes"></span></li>
+	<li style="display: inline-block; list-style-type: none;"><span style="display: block;" id="seconds"></span></li>
      </ul>
 </div>
 </body>
   <script>
-		(function () {
-  		const second = 1000,
-			minute = second * 60,
-			hour = minute * 60,
-			day = hour * 24;
-		var now = new Date().getTime();
-  		let countDown = new Date().getTime() + 30 * 60000,	  
-			x = setInterval(function() {    
-			let now = new Date().getTime(),
-				distance = countDown - now;
-				document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-				document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
-			if (distance < 0) {
-				countdown = document.getElementById("countdown"),
-				countdown.style.display = "block";
+	(function () {
+  	const second = 1000,
+		minute = second * 60,
+		hour = minute * 60,
+		day = hour * 24;
+	var now = new Date().getTime();
+  	let countDown = new Date().getTime() + 20 * 60000,	  
+		x = setInterval(function() {    
+		let now = new Date().getTime(),
+			distance = countDown - now;
+			document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+			document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+		if (distance < 0) {
+			countdown = document.getElementById("countdown"),
+			countdown.style.display = "block";
 			
-				document.getElementById("minutes").innerText = "0";
-				document.getElementById("seconds").innerText = "0";
-				clearInterval(x);
-			}
-		}, 0)
+			document.getElementById("minutes").innerText = "0";
+			document.getElementById("seconds").innerText = "0";
+			clearInterval(x);
+		}
+	}, 0)
     }());
 </script>
+
+<div id="countdown">
+     <ul>
+	<li style="display: inline-block; list-style-type: none;"><span style="display: block;" id="minutes"></span></li>
+	<li style="display: inline-block; list-style-type: none;"><span style="display: block;" id="seconds"></span></li>
+     </ul>
+</div>
+</body>
+  <script>
+	(function () {
+  	const second = 1000,
+		minute = second * 60,
+		hour = minute * 60,
+		day = hour * 24;
+	var now = new Date().getTime();
+  	let countDown = new Date().getTime() + 30 * 60000,	  
+		x = setInterval(function() {    
+		let now = new Date().getTime(),
+			distance = countDown - now;
+			document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+			document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+		if (distance < 0) {
+			countdown = document.getElementById("countdown"),
+			countdown.style.display = "block";
+			
+			document.getElementById("minutes").innerText = "0";
+			document.getElementById("seconds").innerText = "0";
+			clearInterval(x);
+		}
+	}, 0)
+    }());
+</script>
+
+<div id="countdown">
+     <ul>
+	<li style="display: inline-block; list-style-type: none;"><span style="display: block;" id="minutes"></span></li>
+	<li style="display: inline-block; list-style-type: none;"><span style="display: block;" id="seconds"></span></li>
+     </ul>
+</div>
+</body>
+  <script>
+	(function () {
+  	const second = 1000,
+		minute = second * 60,
+		hour = minute * 60,
+		day = hour * 24;
+	var now = new Date().getTime();
+  	let countDown = new Date().getTime() + 40 * 60000,	  
+		x = setInterval(function() {    
+		let now = new Date().getTime(),
+			distance = countDown - now;
+			document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+			document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+		if (distance < 0) {
+			countdown = document.getElementById("countdown"),
+			countdown.style.display = "block";
+			
+			document.getElementById("minutes").innerText = "0";
+			document.getElementById("seconds").innerText = "0";
+			clearInterval(x);
+		}
+	}, 0)
+    }());
+</script>
+</div>
