@@ -1,8 +1,0 @@
-<!-- Creat Countdown Timer -->
-<article class="clock" id="model3">
-  <h3></h3>
-
-  <div class="count">
-    <div id="timer"></div>
-  </div>
-</article>
