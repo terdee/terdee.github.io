@@ -40,7 +40,7 @@ const findTimeString = () => {
 const startTimer = () => {
   if (isStopped) {
     isStopped = false;
-    timerID = setInterval(runCountDown, 500);
+    timerID = setInterval(runCountDown, 1000);
   }
 };
 
