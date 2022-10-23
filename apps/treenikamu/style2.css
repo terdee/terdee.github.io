@@ -1,0 +1,39 @@
+.timer-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#myDIV {
+display: none;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+.count-digit {
+  color: #ffffff;
+  background-color: #333;
+  font-size: 56px;
+  padding: 10px 20px;
+  text-shadow: 0 1px 0 white;
+  border-radius: 10%;
+}
+
+.separator {
+  font-size: 56px;
+}
+
+.options {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+}
+
+.kuvat-container {
+margin-top: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
