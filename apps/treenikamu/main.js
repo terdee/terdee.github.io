@@ -1,4 +1,4 @@
-//import "styles.css";
+//import "style2.css";
 
 // Select Every Count Container
 const countContainer = document.querySelectorAll(".count-digit");
@@ -44,6 +44,7 @@ const startTimer = () => {
   }
 };
 
+
 // Function to stop Countdown
 const stopTimer = () => {
   isStopped = true;
@@ -60,13 +61,13 @@ const resetTimer = () => {
 };
 
 // Initialize alarm sound
-timeoutAudio.src = "http://soundbible.com/grab.php?id=1252&type=mp3";
+timeoutAudio.src = "https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/mozart.mp3";
 timeoutAudio.load();
 
-// Attach onclick event to buttons
-startAction.onclick = startTimer;
-resetAction.onclick = resetTimer;
-stopAction.onclick = stopTimer;
+// Attach ondblclick event to buttons
+startAction.ondblclick = startTimer;
+resetAction.ondblclick = resetTimer;
+stopAction.ondblclick = stopTimer;
 
 // Function to display coundown on screen
 const renderTime = () => {
