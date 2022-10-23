@@ -5,10 +5,10 @@
 	<link rel="stylesheet" href="style2.css">
 	<link rel="stylesheet" href="https://github.com/terdee/terdee.github.io/blob/dd1165b328f9236332045a164356c81214df958c/treenikamu/style2.css">
 	<link rel="stylesheet" href="style_general.css">
-	<link rel="stylesheet" href="styles.css">
 	<script src="main.js" defer></script>
 	<title>Treenikamu</title>
 	</head>
+
 <header>
 <div class="container-fluid h-f-colors">
 <nav class="navbar navbar-expand-md row"><h3 class="title">
@@ -35,10 +35,11 @@ Musamoti </h3>
 </nav>
 </div>
 </header>
-	<br>
-</head>
+<br>
 <body>
+
 <div>
+<div class="timer-container">
     <div>
       <span class="count-digit">3</span>
       <span class="count-digit">0</span>
@@ -50,17 +51,22 @@ Musamoti </h3>
     <div class="options">
       <button id="stop-timer">Seis
       </button>
-      <button id="start-timer">Aloita
-      </button>
+      <a onclick="myFunction()"><button id="start-timer" ">Aloita
+      </button></a>
       <button id="reset-timer">Nollaa
       </button>
     </div>
 
     <audio id="alarm_audio"></audio>
 </div>
-<div>
-<div class="slideshow-container">
+</div>
 
+<div id="myDIV">
+<div class="mozart">
+
+	<div class="kuvat-container">
+	<div class="kuvat">
+	<div class="slideshow-container">
 
 <div class="mySlides">
   <img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/002.gif">
@@ -142,17 +148,29 @@ Musamoti </h3>
   <img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/019.gif">
 </div>
 
+	</div>
+	</div>
+	</div>
 </div>
 
-
-</div>
-<br>
 
 <div style="text-align:center">
   <span class="dot"></span> 
   <span class="dot"></span> 
   <span class="dot"></span> 
 </div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
 
 <script>
 let slideIndex = 0;
@@ -176,10 +194,10 @@ function showSlides() {
 }
 </script>
 
+
 </div>
 </body>
 <footer>
-
 <div  style="text-align: center;" class="h-f-colors">
 <a href="feedback/feedback-form.html"> Anna palautetta </a>
 <p>Musamoti ©tti2022</p>
