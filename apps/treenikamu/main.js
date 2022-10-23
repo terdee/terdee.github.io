@@ -65,9 +65,9 @@ timeoutAudio.src = "https://raw.githubusercontent.com/terdee/terdee.github.io/ma
 timeoutAudio.load();
 
 // Attach ondblclick event to buttons
-startAction.ondblclick = startTimer;
-resetAction.ondblclick = resetTimer;
-stopAction.ondblclick = stopTimer;
+startAction.onclick = startTimer;
+resetAction.onclick = resetTimer;
+stopAction.onclick = stopTimer;
 
 // Function to display coundown on screen
 const renderTime = () => {
