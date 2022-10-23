@@ -3,7 +3,6 @@
 	<head>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style5.css">
-	<link rel="stylesheet" href="https://github.com/terdee/terdee.github.io/blob/1902d0d63bf342739982e2dcb0c67a170a0283c0/apps/style5.css">
 	<link rel="stylesheet" href="style_general.css">
 	</head>
 <header>
@@ -37,20 +36,16 @@ Musamoti </h3>
 <div class="inner-flex">
 <div class="content">
 <div class="tekstiruutu">
-<p><button class="button" onclick="document.getElementById('generator').innerHTML = things[Math.floor(Math
- .random() * things.length)]">Tsemppaa mua!</button>
-
+<p class="box">
+<button class="button" onclick="document.getElementById('generator').innerHTML = tsempit[Math.floor(Math
+ .random() * tsempit.length)]">
+ Tsemppaa mua!
+ </button>
 <p id="generator"></p>
-
-<script>
-var things = [' Musiikki on korvan silmä. -Thomas Drake ', ' Musiikkia voi luoda kaikkialla, se on näkymätöntä eikä haise. -W. H. Auden ', ' Musiikki ei ole nuoteissa, vaan hiljaisuudessa niiden välissä. -Wolfgang Amadeus Mozart ', 'On sitä uponnut valtamerilaivojakin ', ' Kyllä se siitä! ', 'Haasteet tekevät elämästä mielenkiintoisen, ja niiden voittaminen tekee elämästä merkityksellisen. –Joshua J. Marine ', ' Kaikki asiat ovat vaikeita ennen kuin ne ovat helppoja. –Thomas Fuller', 'The Earth without art is just Eh.', ' Kun sanat loppuvat, musiikki puhuu. -H.C. Andersen ', 'Kaikesta melusta on musiikki vähiten vastenmielistä. -Samuel Johnson', ' Musiikki ilmaisee sen mitä ei voi pukea sanoiksi, mutta mitä ei voi jättää lausumatta. -Victor Hugo '];
- 
-var thing = things[Math.floor(Math
- .random() * things.length)];
-console.log(thing);
-  
+<script class="phrase">
+var tsempit = ['Musiikki on korvan silmä. -Thomas Drake', ' Musiikkia voi luoda kaikkialla, se on näkymätöntä eikä haise. -W. H. Auden ', ' Musiikki ei ole nuoteissa, vaan hiljaisuudessa niiden välissä. -Wolfgang Amadeus Mozart ', 'On sitä uponnut valtamerilaivojakin ', ' Kyllä se siitä! ', 'Haasteet tekevät elämästä mielenkiintoisen, ja niiden voittaminen tekee elämästä merkityksellisen. –Joshua J. Marine ', ' Kaikki asiat ovat vaikeita ennen kuin ne ovat helppoja. –Thomas Fuller', 'The Earth without art is just Eh.', ' Kun sanat loppuvat, musiikki puhuu. -H.C. Andersen ', 'Kaikesta melusta on musiikki vähiten vastenmielistä. -Samuel Johnson', ' Musiikki ilmaisee sen mitä ei voi pukea sanoiksi, mutta mitä ei voi jättää lausumatta. -Victor Hugo']; 
+var tsemppi = tsempit[Math.floor(Math.random() * tsempit.length)]; 
 </script>
-<script src="script.js"></script>
 </p>
 </div>
 </div>
