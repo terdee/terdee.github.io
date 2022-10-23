@@ -1,6 +1,8 @@
 .button {
-padding: 2px 4px 2px 4px;
+font-family: auto;
+padding: 2px 5px 2px 5px;
 font-weight: bold;
+margin: 5px;
 }
 
 .tekstiruutu {
