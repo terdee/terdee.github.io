@@ -6,10 +6,9 @@
 	<link rel="stylesheet" href= "style_congrats.css">
 	<link rel="stylesheet" href="style_tsemppi.css">
 	<link rel="stylesheet" href="style_general.css">
-	<script src="main_audioplay.js" defer></script>
 	<title>Tsemppigeneraattori</title>
 	</head>
-<body>
+
 <div class="inner-flex">
 <body>
 	<div class="content">
@@ -17,30 +16,27 @@
 	<img class="kuva" src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/020.jpg">
 </div>
 </div>
-</div>
-</div>
 
-<div class="timer">
-<div class="big-container">
-	<div class="timer-container">
-    <div>
-      <span class="count-digit">3</span>
-      <span class="count-digit">0</span>
-      <span class="separator">:</span>
-      <span class="count-digit">0</span>
-      <span class="count-digit">0</span>
-    </div>
 
-    <div class="options">
-      <button id="stop-timer">Seis
-      </button>
-      <a onclick="myFunction()"><button id="start-timer" ">Aloita
-      </button></a>
-      <button id="reset-timer">Nollaa
-      </button>
-	</div>
-    <audio id="alarm_audio"></audio>
-</div>
+<audio id="myAudio">
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="https://terdee.github.io/mozart.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+const myTimeout = setTimeout(playAudio, 2000);
+var x = document.getElementById("myAudio");
+
+function playAudio() {
+  x.play()
+}
+</script>
+
+
+
+
+
+<body>
 
 </body>
 </div>
