@@ -69,7 +69,7 @@ startAction.onclick = startTimer;
 resetAction.onclick = resetTimer;
 stopAction.onclick = stopTimer;
 
-// Function to display coundown on screen
+// Function to display countdown on screen
 const renderTime = () => {
   const time = findTimeString();
   countContainer.forEach((count, index) => {
@@ -90,5 +90,6 @@ const runCountDown = () => {
     // Play alarm on timeout
     timeoutAudio.play();
     countDownTime = defaultValue;
-  }
+
+    }
 };
