@@ -61,7 +61,7 @@ const resetTimer = () => {
 };
 
 // Initialize alarm sound
-timeoutAudio.src = "https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/mozart.mp3";
+timeoutAudio.src = "https://terdee.github.io/mozart.mp3";
 timeoutAudio.load();
 
 // Attach ondblclick event to buttons
@@ -88,8 +88,9 @@ const runCountDown = () => {
   if (countDownTime === 0) {
     stopTimer();
     // Play alarm on timeout
+	countDownTime = defaultValue;
     timeoutAudio.play();
-    countDownTime = defaultValue;
+    
 
     }
 };
