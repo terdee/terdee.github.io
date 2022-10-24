@@ -1,0 +1,9 @@
+.kuva {
+width: 45%;
+}
+
+.image{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
