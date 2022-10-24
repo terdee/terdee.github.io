@@ -5,6 +5,10 @@
 	<link rel="stylesheet" href="style#.css">
 <link rel="stylesheet" href="#">
 	</head>
+
+<div class="page-container">
+	<div class="content-wrap">
+
 <header>
 <div class="container-fluid h-f-colors">
 <nav class="navbar navbar-expand-md row"><h3 class="title">
@@ -35,6 +39,7 @@ Musamoti </h3>
 <body>
 
 </body>
+</div>
 	<br>
 <footer>
 </div>
@@ -44,4 +49,7 @@ Musamoti </h3>
 </div>
 </footer>
 </div>
+
+</div>
+
 </html>
