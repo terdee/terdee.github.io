@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style_mozart.css">
+	<link rel="stylesheet" href="https://github.com/terdee/terdee.github.io/blob/dd1165b328f9236332045a164356c81214df958c/treenikamu/style2.css">
+	
+	<script src="main3.js" defer></script>
+	<title>Treenikamu</title>
+	</head>
+
+<body>
+<article>
+<div class="inner-flex">
+<div class="content">
+<div class="inner-flex">
+<div class="big-container">
+	<div class="timer-container">
+    <div>
+      <span class="count-digit">4</span>
+      <span class="count-digit">5</span>
+      <span class="separator">:</span>
+      <span class="count-digit">0</span>
+      <span class="count-digit">0</span>
+    </div>
+
+    <div class="options">
+      <button id="stop-timer">Seis
+      </button>
+      <a onclick="myFunction()"><button id="start-timer" ">Aloita
+      </button></a>
+      <button id="reset-timer">Nollaa
+      </button>
+	</div>
+</div>
+
+    <audio id="alarm_audio"></audio>
+</div>
+</div>
+
+<div id="myDIV">
+<div class="mozart">
+
+	<div class="kuvat-container">
+	<div class="kuvat">
+	<div class="slideshow-container">
+
+<div class="mySlides">
+  <img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/003.gif">
+</div>
+
+<div class="mySlides>
+  <img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/001.gif">
+</div>
+
+<div class="mySlides">
+  <img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/002.gif">
+</div>
+
+<div class="mySlides">
+  <img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/003.gif">
+</div>
+
+<div class="mySlides">
+  <img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/004.gif">
+</div>
+
+<div class="mySlides">
+  <img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/005.gif">
+</div>
+
+<div class="mySlides">
+  <img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/006.gif">
+</div>
+
+<div class="mySlides">
+  <img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/007.gif">
+</div>
+
+<div class="mySlides">
+  <img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/008.gif">
+</div>
+
+<div class="mySlides">
+  <img src="">
+</div>
+
+<div class="mySlides">
+  <img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/009.gif">
+</div>
+
+<div class="mySlides">
+  <img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/010.gif">
+</div>
+
+<div class="mySlides">
+  <img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/011.gif">
+</div>
+
+<div class="mySlides">
+  <img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/013.gif">
+</div>
+
+<div class="mySlides">
+  <img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/014.gif">
+</div>
+
+<div class="mySlides">
+  <img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/015.gif">
+</div>
+
+<div class="mySlides">
+  <img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/016.gif">
+</div>
+
+<div class="mySlides">
+  <img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/017.gif">
+</div>
+
+<div class="mySlides">
+  <img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/018.gif">
+</div>
+
+<div class="mySlides">
+  <img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/019.gif">
+</div>
+
+	</div>
+	</div>
+	</div>
+</div>
+
+<div">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</div>
+
+<div class="kuvat-container">
+<div id="congrats">
+	<img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/020.jpg">
+</div>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 10000); // Change image every 10 seconds
+}
+</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+</body>
+</html>
