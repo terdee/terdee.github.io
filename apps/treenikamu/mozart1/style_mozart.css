@@ -105,13 +105,17 @@ top: 775px;
 left: 150px;
 }
 
-.kuva {
-}
-
-.image{
-width: 100%;
+.image {
+width: 70%;
 z-index: 3;
 display: flex;
 flex-direction: column;
 align-items: center;
+}
+
+
+.onnea {
+text-align: center;
+font-size: 30px;
+font-weight: bold;
 }
