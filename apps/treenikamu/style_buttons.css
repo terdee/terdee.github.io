@@ -9,3 +9,7 @@ font-weight: bold;
 font-size: 20px;
 border-radius: 100%;
 }
+
+body {
+margin-left: 40px;
+}
