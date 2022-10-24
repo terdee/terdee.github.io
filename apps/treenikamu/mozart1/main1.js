@@ -12,7 +12,7 @@ const resetAction = document.getElementById("reset-timer");
 const timeoutAudio = document.getElementById("alarm_audio");
 
 // Default inital value of timer
-const defaultValue = 20 * 60;
+const defaultValue = 0.1 * 60;
 
 // variable to the time
 var countDownTime = defaultValue;
@@ -90,6 +90,8 @@ const runCountDown = () => {
     // Play alarm on timeout
 	countDownTime = defaultValue;
     timeoutAudio.play();
+  document.getElementById("overlay").style.display = "block";
+   
     
 
     }
