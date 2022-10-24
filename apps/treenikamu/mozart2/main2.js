@@ -90,6 +90,8 @@ const runCountDown = () => {
     // Play alarm on timeout
 	countDownTime = defaultValue;
     timeoutAudio.play();
+  document.getElementById("overlay").style.display = "block";
+   
     
 
     }
