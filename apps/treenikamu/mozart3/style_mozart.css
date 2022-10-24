@@ -1,3 +1,19 @@
+#overlay {
+  color: white;
+  position: fixed;
+  display: none;
+  width: 450px;
+  height: 800px;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 3;
+  cursor: pointer;
+}
+
 html {
 width: 450px;
 height: 800px;
@@ -6,6 +22,7 @@ height: 800px;
 body {
 width: 450px;
 height: 800px;
+margin-left: 30px;
 }
 
 .inner-flex {
@@ -88,4 +105,20 @@ display: none;
 position: absolute;
 top: 775px;
 left: 150px;
+}
+
+.image {
+width: 90%;
+z-index: 3;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.onnea {
+text-align: center;
+font-size: 15px;
+font-weight: bold;
+position: absolute;
+top: 20px;
 }
