@@ -36,10 +36,14 @@ Musamoti </h3>
 </div>
 </header>
 <br>
+
 <body>
+<div class="inner-flex">
+<div class="content">
 
 <div>
-<div class="timer-container">
+<div class="big-container">
+	<div class="timer-container">
     <div>
       <span class="count-digit">3</span>
       <span class="count-digit">0</span>
@@ -55,7 +59,8 @@ Musamoti </h3>
       </button></a>
       <button id="reset-timer">Nollaa
       </button>
-    </div>
+	</div>
+</div>
 
     <audio id="alarm_audio"></audio>
 </div>
@@ -153,11 +158,19 @@ Musamoti </h3>
 	</div>
 </div>
 
+<div">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</div>
 
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
+<div class="kuvat-container">
+<div id="congrats">
+	<img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/020.jpg">
+</div>
+<p class="näkymätön">
+</p>
 </div>
 
 <script>
@@ -193,15 +206,16 @@ function showSlides() {
   setTimeout(showSlides, 10000); // Change image every 10 seconds
 }
 </script>
-
-
+</div>
+</div>
+</div>
 </div>
 </body>
+</div>
 <footer>
 <div  style="text-align: center;" class="h-f-colors">
 <a href="feedback/feedback-form.html"> Anna palautetta </a>
 <p>Musamoti ©tti2022</p>
 </div>
 </footer>
-</div>
 </html>
