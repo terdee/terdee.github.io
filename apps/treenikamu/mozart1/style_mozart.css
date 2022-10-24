@@ -106,16 +106,17 @@ left: 150px;
 }
 
 .image {
-width: 70%;
+width: 50%;
 z-index: 3;
 display: flex;
 flex-direction: column;
 align-items: center;
 }
 
-
-.onnea {
+.onnea1 {
 text-align: center;
-font-size: 30px;
+font-size: 20px;
 font-weight: bold;
+position: absolute;
+top: 20px;
 }
