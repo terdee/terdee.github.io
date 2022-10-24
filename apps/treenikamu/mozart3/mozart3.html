@@ -4,8 +4,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style_mozart.css">
 	<link rel="stylesheet" href="https://github.com/terdee/terdee.github.io/blob/dd1165b328f9236332045a164356c81214df958c/treenikamu/style2.css">
-	
-	<script src="main3.js" defer></script>
+	<script src="main1.js" defer></script>
 	<title>Treenikamu</title>
 	</head>
 
@@ -34,7 +33,7 @@
 	</div>
 </div>
 
-    <audio id="alarm_audio"></audio>
+ <audio id="alarm_audio"></audio>
 </div>
 </div>
 
@@ -176,16 +175,35 @@ function showSlides() {
   setTimeout(showSlides, 10000); // Change image every 10 seconds
 }
 </script>
+</div>
+</div>
+</div>
+</div>
+</div>
 
-<div>
-<a href="https://terdee.github.io/apps/treenikamu/mozart0.html"><button class="back"> Takaisin valikkoon </button> </a>
+<div id="overlay" onclick="off()">
+<p class="onnea">
+ONNEA, HIENOSTI HARJOITELTU! Nyt on tauon paikka!
+<button onclick="myFunction1()">Jatka harjoittelua</button>
+<button onclick="myFunction2()">Palaa kotisivulle</button>
+</p>
+<script>
+function myFunction1() {
+  location.replace("https://terdee.github.io/apps/treenikamu/treenikamu.html")
+}
+</script>
+
+<script>
+function myFunction2() {
+  location.replace("https://terdee.github.io")
+}
+</script>
+
+<div class="image">
+	<img src="https://raw.githubusercontent.com/terdee/terdee.github.io/master/apps/treenikamu/kuvat/020.jpg">
+</div>
 </div>
 
-</div>
-</div>
-</div>
-</div>
-</div>
 </article>
 </body>
 </html>
