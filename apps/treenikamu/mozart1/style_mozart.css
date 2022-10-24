@@ -106,10 +106,11 @@ left: 150px;
 }
 
 .kuva {
-width: 45%;
 }
 
 .image{
+width: 100%;
+z-index: 3;
 display: flex;
 flex-direction: column;
 align-items: center;
