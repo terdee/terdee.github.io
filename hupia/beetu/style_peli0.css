@@ -4,7 +4,6 @@ height: 350px;
 }
 
 .peli {
-border: solid;
 display: flex;
 flex-direction: column;
 align-items: center;
