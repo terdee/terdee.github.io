@@ -1,0 +1,24 @@
+html {
+width: 510px;
+height: 350px;
+}
+
+.peli {
+border: solid;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.kuva {
+width: 450px;
+height: 350px;
+}
+
+button {
+font-size: 20px;
+padding: 10px;
+position: absolute;
+top: 230px;
+left: 50px;
+}
